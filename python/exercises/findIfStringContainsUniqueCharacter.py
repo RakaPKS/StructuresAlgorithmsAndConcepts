@@ -11,7 +11,7 @@ def naiveFind(inputString) -> bool:
     return True
 
 
-# Efificient without any data structures
+# Efficient without any data structures
 # Runtime O(n log n)
 def efficientNoDataStructuresFind(inputString) -> bool:
     inputString = sorted(inputString)
@@ -24,7 +24,7 @@ def efficientNoDataStructuresFind(inputString) -> bool:
 
 # Efficient find
 # runtime O(n)
-def effecientFind(inputString) -> bool:
+def efficientFind(inputString) -> bool:
     dictionary = {}
     for character in inputString:
         if ord(character) in dictionary:
@@ -40,9 +40,9 @@ incorrect = "hello"
 # Should return True
 print(naiveFind(correct))
 print(efficientNoDataStructuresFind(correct))
-print(effecientFind(correct))
+print(efficientFind(correct))
 
 # Should return False
 print(naiveFind(incorrect))
 print(efficientNoDataStructuresFind(incorrect))
-print(effecientFind(incorrect))
+print(efficientFind(incorrect))
