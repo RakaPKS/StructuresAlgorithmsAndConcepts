@@ -1,5 +1,5 @@
 # Write a method to replace all spaces in a string s with '%20'.
-# You my asume that the string has sufficient space at the end to hold
+# You my assume that the string has sufficient space at the end to hold
 # the additional characters, and that you are given the "true"
 # length of the string.
 
