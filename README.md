@@ -12,21 +12,21 @@ Exercises are interview questions derived from multiple books.
 - [x] Stack
 - [x] Tree
 - [x] Heap
-- [] Graph
-- [] Vector
+- [ ] Graph
+- [ ] Vector
 
 ## Algorithms
 
-- [] BFS
-- [] DFS
-- [] Binary Search
-- [] Merge Sort
-- [] Quick Sort
+- [ ] BFS
+- [ ] DFS
+- [ ] Binary Search
+- [ ] Merge Sort
+- [ ] Quick Sort
 
 ## Concepts
 
 - [x] Big O Time & Space
-- [] Memory (Stack v Heap)
-- [] Bit Manipulation
-- [] Recursion
-- [] Dynamic Programming
+- [ ] Memory (Stack v Heap)
+- [ ] Bit Manipulation
+- [ ] Recursion
+- [ ] Dynamic Programming
