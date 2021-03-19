@@ -2,7 +2,11 @@ class Stack:
     def __init__(self):
         self.stack = []
 
+    def __len__(self):
+        return len(self.stack)
+
     # Removes and returns top most item in stack
+
     def pop(self):
         if self.stack:
             popped = self.stack[-1]
