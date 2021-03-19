@@ -34,6 +34,7 @@ class Stack:
 
 if __name__ == '__main__':
     stack = Stack()
+    print(stack.isEmpty())
     for i in range(1, 20):
         stack.push(i)
     print(stack.isEmpty())
